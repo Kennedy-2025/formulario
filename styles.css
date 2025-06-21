@@ -1,0 +1,91 @@
+body {
+  background-color: #111;
+  color: #f2f2f2;
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  padding: 40px;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  background-color: #1a1a1a;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+}
+
+label {
+  margin-top: 10px;
+  display: block;
+  font-size: 14px;
+  color: #ccc;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  background-color: #000;
+  color: #f2f2f2;
+  border: 1px solid #444;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #ff2b2b;
+  background-color: #111;
+}
+
+input.valid, textarea.valid {
+  border: 2px solid #00ff88;
+}
+
+input.invalid, textarea.invalid {
+  border: 2px solid #ff2b2b;
+}
+
+::placeholder {
+  color: #888;
+}
+
+button {
+  background-color: #ff2b2b;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e60000;
+}
+
+@media (max-width: 500px) {
+  body {
+    padding: 20px;
+  }
+
+  form {
+    padding: 20px;
+  }
+}
+body {
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('https://th.bing.com/th/id/OIP.S2z49EDpOLDgzvlpYHLR6AAAAA?pid=ImgDetMain');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #f2f2f2;
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  padding: 40px;
+}
